@@ -15,3 +15,4 @@ Project A.R.I.A. is engineered to leverage high-throughput, containerized Linux 
 
 ### Platform Verification Proof:
 <img width="945" height="1600" alt="image" src="https://github.com/user-attachments/assets/ab65a777-77d7-4c9b-9114-b44448f86c25" />
+<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/aa1a215a-6149-49ad-b65f-03ac8eb5445b" />
