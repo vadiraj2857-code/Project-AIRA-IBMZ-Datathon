@@ -357,7 +357,11 @@ elif st.session_state.page == "app":
             if raw_input:
                 clean_output = sanitize_text(raw_input)
                 st.markdown("### Sanitized Output Stream:")
-                st.code(clean_output, language="text")
+                st.markdown(f"""
+    <div style="background-color: #0B0F19; border: 1px solid #00FFFF; border-radius: 6px; padding: 15px; color: #00FFFF; font-family: 'Courier New', monospace; word-wrap: break-word; box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);">
+        {clean_output}
+    </div>
+""", unsafe_allow_html=True)
                 
                 # IBM Z Secure Enclave Audit Receipt
                 st.markdown("---")
